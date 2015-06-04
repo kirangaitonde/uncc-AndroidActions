@@ -1,0 +1,177 @@
+android.bluetooth.devicepicker.action.DEVICE_SELECTED;Broadcast when one BT device is selected from BT device picker screen
+android.bluetooth.intent.action.REMOTE_ALIAS_CHANGED;Indicates the alias of a remote device has been changed.
+android.intent.action.MEDIA_EJECT;User has expressed the desire to remove the external storage media
+android.intent.action.AIRPLANE_MODE;The user has switched the phone into or out of Airplane Mode. One or more radios have been turned off or on
+android.intent.action.PACKAGE_FIRST_LAUNCH;Sent to the installer package of an application when that application is first launched (that is the first time it is moved out of the stopped state).
+android.intent.action.UMS_DISCONNECTED;The device has exited USB Mass Storage mode
+android.net.wifi.STATE_CHANGE;Broadcast intent action indicating that the state of Wi-Fi connectivity has changed.
+android.intent.action.USER_PRESENT;Sent when the user is present after device wakes up (e.g when the keyguard is gone).
+android.provider.Telephony.WAP_PUSH_RECEIVED;A new WAP PUSH message has been received by the device
+android.net.wifi.supplicant.CONNECTION_CHANGE;Broadcast intent action indicating that a connection to the supplicant has been established (and it is now possible to perform Wi-Fi operations) or the connection to the supplicant has been lost.
+android.intent.action.PACKAGE_ADDED; A new application package has been installed on the device.
+android.bluetooth.device.action.CLASS_CHANGED;Bluetooth class of a remote device has changed
+android.app.action.ACTION_PASSWORD_EXPIRING;Periodically sent to a device administrator when the device password is expiring.
+android.intent.action.PACKAGE_INSTALL;Trigger the download and eventual installation of a package.
+com.google.gservices.intent.action.GSERVICES_CHANGED;Must not be used.
+android.bluetooth.intent.action.MODE_CHANGED;Broadcast when the bluetooth scan mode changes
+android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE;Resources for a set of packages are currently unavailable since the media on which they exist is unavailable.
+android.bluetooth.pan.action.STATE_CHANGED;Indicates the state of an PAN device has changed.
+android.intent.action.MEDIA_BAD_REMOVAL;"External media was removed from SD card slot, but mount point was not unmounted"
+android.intent.action.MEDIA_MOUNTED;External media is present and mounted at its mount point
+android.bluetooth.headset.action.AUDIO_STATE_CHANGED;Used to broadcast the change in the Audio Connection state of the A2DP profile.
+android.provider.Telephony.SMS_RECEIVED;A new text-based SMS message has been received by the device.
+android.intent.action.GTALK_CONNECTED;Google Talk has been connected
+android.bluetooth.intent.action.REMOTE_NAME_UPDATED;Broadcast when the scan mode changes
+android.bluetooth.adapter.action.DISCOVERY_STARTED;Broadcast when the scan mode changes
+android.net.wifi.WIFI_STATE_CHANGED;"Indicates that Wi-Fi has been enabled, disabled, enabling, disabling, or unknown."
+android.intent.action.BATTERY_OKAY;The battery level has risen again
+android.intent.action.MEDIA_CHECKING;"External media is present, and being disk-checked The path to the mount point for the checking media is contained in the Intent.mData field."
+android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED;"Action sent to a device administrator when the user has requested to disable it, but before this has actually been done."
+android.intent.action.BATTERY_LOW;The battery level has fallen below a threshold
+android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED;Intent used to broadcast the change in the Audio Connection state of the A2DP profile.
+android.intent.action.NEW_OUTGOING_CALL;"When the user initiates a call, the system notifies interested apps by sending the phone number and other info"
+android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS;Broadcast Action: Query available keyboard layouts.
+android.bluetooth.headset.action.STATE_CHANGED;Broadcast when Bluetooth Headset connection state changes (connected/disconnected) 
+android.intent.action.MEDIA_UNMOUNTABLE;External media is present but cannot be mounted.
+android.bluetooth.intent.action.PAIRING_CANCEL;Broadcast when the scan mode changes
+android.intent.action.NEW_VOICEMAIL;Broadcast intent when a new voicemail record is inserted
+android.intent.action.PACKAGE_REMOVED;An existing application package has been removed from the device.
+android.net.wifi.p2p.STATE_CHANGED;Broadcast intent action to indicate whether Wi-Fi p2p is enabled or disabled.
+android.bluetooth.device.action.ACL_DISCONNECTED;Indicates a low level (ACL) disconnection from a remote device.
+android.intent.action.CAMERA_BUTTON;"The ""Camera Button"" was pressed."
+android.intent.action.PACKAGE_NEEDS_VERIFICATION;Sent to the system package verifier when a package needs to be verified.
+android.app.action.DEVICE_ADMIN_DISABLED;Action sent to a device administrator when the user has disabled it.
+android.intent.action.ACTION_POWER_DISCONNECTED;External power has been removed from the device.
+android.bluetooth.intent.action.DISCOVERY_COMPLETED;Broadcast when the scan mode changes.
+android.bluetooth.intent.action.REMOTE_NAME_FAILED;Broadcast when the scan mode changes.
+android.bluetooth.intent.action.SCAN_MODE_CHANGED;Broadcast when the scan mode changes.
+android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE;Resources for a set of packages (which were previously unavailable) are currently available since the media on which they exist is available.
+android.intent.action.DREAMING_STOPPED; Sent after the system stops dreaming.
+android.intent.action.MANAGE_PACKAGE_STORAGE; Indicates low memory condition notification acknowledged by user and package management should be started.
+android.intent.action.MEDIA_SCANNER_SCAN_FILE;Request the media scanner to scan a file and add it to the media database.
+android.net.wifi.RSSI_CHANGED;The RSSI (signal strength) has changed.
+android.bluetooth.headset.action.VENDOR_SPECIFIC_HEADSET_EVENT;Intent used to broadcast that the headset has posted a vendor-specific event.
+android.bluetooth.adapter.action.STATE_CHANGED;Broadcast Action: The state of the local Bluetooth adapter has been changed.
+android.provider.Telephony.SMS_CB_RECEIVED;A new Cell Broadcast message has been received by the device.
+android.bluetooth.inputdevice.action.INPUT_DEVICE_STATE_CHANGED;Indicates the state of an input device has changed.
+android.intent.action.SCREEN_OFF; Sent after the screen turns off.
+android.bluetooth.intent.action.NAME_CHANGED;The Bluetooth has changed its name.
+android.intent.action.LOCALE_CHANGED;The user changed the language of the device
+android.speech.tts.engine.TTS_DATA_INSTALLED; Broadcast to signal the change in the list of available languages or/and their features.
+android.provider.Telephony.SMS_SERVICE_CATEGORY_PROGRAM_DATA_RECEIVED;A new CDMA SMS has been received containing Service Category Program Data 
+android.intent.action.PROVIDER_CHANGED;Some content providers have parts of their namespace where they publish new events or items that the user may be especially interested in.
+android.net.conn.BACKGROUND_DATA_SETTING_CHANGED;The setting for background data usage has changed values
+android.intent.action.MY_PACKAGE_REPLACED; A new version of an application package has been installed, replacing an existing version that was previously installed."
+android.bluetooth.intent.action.REMOTE_DEVICE_CONNECTED;Broadcast when the scan mode changes
+com.google.gservices.intent.action.GSERVICES_OVERRIDE;Gservices provides access to a key-value store that is can be updated remote (by the google checkin service).
+android.intent.action.MEDIA_SCANNER_STARTED;The media scanner has started scanning a directory.
+android.provider.Telephony.SMS_REJECTED;An incoming SMS has been rejected by the telephony framework.
+android.bluetooth.adapter.action.LOCAL_NAME_CHANGED;The local Bluetooth adapter has changed its friendly Bluetooth name.
+android.net.wifi.p2p.CONNECTION_STATE_CHANGE;Broadcast intent action indicating that the state of Wi-Fi p2p connectivity has changed
+android.intent.action.UMS_CONNECTED;The device has entered USB Mass Storage mode
+android.bluetooth.a2dp.profile.action.PLAYING_STATE_CHANGED;Intent used to broadcast the change in the Playing state of the A2DP profile.
+android.intent.action.BATTERY_CHANGED;"Sticky broadcast containing the charging state, level, and other information about the battery"
+android.media.VIBRATE_SETTING_CHANGED;Broadcast intent action indicating that the vibrate setting has changed. Includes the vibrate type and its new setting.
+android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION;Intent to signal to the effect control application or service that a new audio session is opened and requires audio effects to be applied.
+android.intent.action.FETCH_VOICEMAIL;Broadcast intent to request a voicemail source to fetch voicemail content of a specific voicemail from the remote server.
+android.intent.action.DEVICE_STORAGE_LOW;A sticky broadcast that indicates low memory condition on the device
+android.intent.action.WALLPAPER_CHANGED;The current system wallpaper has changed
+android.bluetooth.intent.action.REMOTE_DEVICE_DISAPPEARED;Broadcast when the scan mode changes.
+android.intent.action.PROXY_CHANGE;Used to notify an app that's caching the default connection proxy that either the default connection or its proxy has changed.
+android.app.action.DEVICE_ADMIN_ENABLED;Broadcast when the user enables the device admin app.
+android.nfc.action.ADAPTER_STATE_CHANGED;The state of the local NFC adapter has been changed.
+android.intent.action.INPUT_METHOD_CHANGED;An input method has been changed.
+android.app.action.ACTION_PASSWORD_SUCCEEDED;"Action sent to a device administrator when the user has successfully entered their password, after failing one or more times."
+android.intent.action.DATA_SMS_RECEIVED;A new data based SMS message has been received by the device.
+android.bluetooth.a2dp.action.SINK_STATE_CHANGED;Must not be used.
+android.intent.action.MEDIA_SCANNER_FINISHED; The media scanner has finished scanning a directory.
+android.intent.action.MEDIA_REMOVED;External media (SDCARD) has been removed
+android.bluetooth.intent.action.REMOTE_ALIAS_CLEARED;The friendly name of the remote device has been cleared.
+android.bluetooth.intent.action.BONDING_CREATED;The bonding between the too devices has been established.
+android.intent.action.MEDIA_SHARED;External media is unmounted because it is being shared via USB mass storage.
+android.provider.Telephony.SMS_EMERGENCY_CB_RECEIVED;A new Emergency Broadcast message has been received by the device.
+android.intent.action.PACKAGE_VERIFIED;Sent to the system package verifier when a package is verified.
+android.net.wifi.p2p.DISCOVERY_STATE_CHANGE;Broadcast intent action indicating that peer discovery has either started or stopped
+android.intent.action.REBOOT;Have the device reboot
+android.intent.action.ACTION_SHUTDOWN;Device is shutting down.
+android.media.RINGER_MODE_CHANGED;Sticky broadcast intent action indicating that the ringer mode has changed. Includes the new ringer mode.
+android.bluetooth.intent.action.BONDING_REMOVED;The bonding between the too devices has been removed.
+android.net.wifi.p2p.THIS_DEVICE_CHANGED;Broadcast intent action indicating that this device details have changed.
+android.net.wifi.SCAN_RESULTS;"An access point scan has completed, and results are available from the supplicant."
+android.app.action.ACTION_PASSWORD_CHANGED;Sent to a device administrator when the user has changed the password of their device.
+android.net.wifi.NETWORK_IDS_CHANGED;The network IDs of the configured networks could have changed.
+android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED;"Indicates that a low level (ACL) disconnection has been requested fro a remote device, and it will soon be disconnected."
+android.intent.action.UID_REMOVED;A user ID has been removed from the system
+android.media.SCO_AUDIO_STATE_CHANGED;Sticky broadcast intent action indicating that the bluetoooth SCO audio connection state has changed.
+android.bluetooth.device.action.BOND_STATE_CHANGED;"Indicates a change in the bond state of a remote device. For example, if a device is bonded (paired)."
+android.intent.action.MEDIA_UNMOUNTED;"External media is present, but not mounted at its mount point."
+android.bluetooth.intent.action.DISABLED;The bluetooth on this device has been disabled.
+android.bluetooth.device.action.NAME_CHANGED;"Indicates the friendly name of a remote device has been retrieved for the first time, or changed since the last retrieval."
+android.intent.action.SCREEN_ON;sent after the screen turns on.
+android.media.AUDIO_BECOMING_NOISY;"Broadcast intent, a hint for applications that audio is about to become 'noisy' due to a change in audio outputs."
+android.bluetooth.intent.action.REMOTE_DEVICE_FOUND;" A new device is found in the range, the device can be then inspected to verify its identity."
+android.bluetooth.intent.action.PAIRING_REQUEST;Broadcast when a pairing request is sent from a device in range.
+android.net.conn.CONNECTIVITY_CHANGE;Broadcasted when the state of network connectivity is changed
+android.intent.action.MEDIA_BUTTON;"The ""Media Button"" was pressed."
+android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED;Intent used to broadcast the change in connection state of the Headset profile.
+android.bluetooth.device.action.ACL_CONNECTED;Indicates a low level (ACL) connection has been established with a remote device.
+android.intent.action.TIME_TICK; The current time has changed.
+android.bluetooth.device.action.PAIRING_REQUEST;Is used to broadcast PAIRING REQUEST requires bluetooth admin permission to receive.
+android.intent.action.DREAMING_STARTED;Sent after the system starts dreaming.
+android.intent.action.TIME_SET;The time was set.
+android.intent.action.PACKAGE_RESTARTED;"The user has restarted a package, and all of its processes have been killed."
+android.intent.action.DOWNLOAD_COMPLETE;Broadcast intent action sent by the download manager when a download completes.
+android.intent.action.PACKAGE_CHANGED;An existing application package has been changed 
+android.intent.action.PACKAGE_DATA_CLEARED; The user has cleared the data of a package.
+android.intent.action.TIMEZONE_CHANGED;The timezone has changed.
+android.bluetooth.intent.action.REMOTE_DEVICE_DISCONNECT_REQUESTED;Broadcast when a disconnect request is sent by one of the connected devices.
+android.bluetooth.device.action.FOUND;Remote device discovered. Sent when a remote device is found during discovery.
+android.bluetooth.a2dp.intent.action.SINK_STATE_CHANGED;Must not be used.
+android.app.action.ACTION_PASSWORD_FAILED;Action sent to a device administrator when the user has failed at attempted to enter the password.
+android.bluetooth.intent.action.HEADSET_ADUIO_STATE_CHANGED;Broadcast when the connected headset state has changed.
+android.intent.action.MEDIA_NOFS;" External media is present, but is using an incompatible fs (or is blank) The path to the mount point for the checking media is contained in the Intent.mData field."
+android.bluetooth.input.profile.action.CONNECTION_STATE_CHANGED;Intent used to broadcast the change in connection state of the Input device profile
+android.bluetooth.devicepicker.action.LAUNCH;Broadcast when someone want to select one bluetooth device from devices list.
+android.bluetooth.intent.action.BLUETOOTH_STATE_CHANGED;"Broadcast when the local Bluetooth device state changes; for example when Bluetooth is enabled."
+android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED;"Broadcast intent action sent by the download manager when the user clicks on a running download, either from a system notification or from the downloads UI."
+android.net.wifi.p2p.PEERS_CHANGED;Broadcast intent action indicating that the available peer list has changed.
+android.bluetooth.intent.action.BOND_STATE_CHANGED_ACTION;Broadcast when the bond state of a remote device changes.
+android.bluetooth.adapter.action.DISCOVERY_FINISHED;The local Bluetooth adapter has finished the device discovery process.
+android.hardware.action.NEW_PICTURE;" A new picture is taken by the camera, and the entry of the picture has been added to the media store"
+android.intent.action.PACKAGE_FULLY_REMOVED; An existing application package has been completely removed from the device.
+android.intent.action.CONFIGURATION_CHANGED;"The current device Configuration(orientation, locale, etc) has changed."
+android.intent.action.DATE_CHANGED; The date has changed.
+android.intent.action.BOOT_COMPLETED;Android is up and running
+android.hardware.action.NEW_VIDEO;"A new video is recorded by the camera, and the entry of the video has been added to the media store"
+android.bluetooth.pan.profile.action.CONNECTION_STATE_CHANGED;Intent used to broadcast the change in connection state of the Pan profile
+android.intent.action.PHONE_STATE;Indicates that the phone is ringing or the phone went idle.
+android.bluetooth.intent.action.HEADSET_STATE_CHANGED;Intent used to broadcast that the headset status has been changed.
+android.bluetooth.adapter.action.SCAN_MODE_CHANGED;Indicates the Bluetooth scan mode of the local Adapter has changed.
+android.net.wifi.supplicant.STATE_CHANGE;Indicates that the state of establishing a connection to an access point has changed.
+android.intent.action.DEVICE_STORAGE_OK; Indicates low memory condition on the device no longer exists
+android.bluetooth.device.action.UUID;Is sent only when the UUIDs of the remote device are requested to be fetched using Service Discovery Protocol.
+android.net.nsd.STATE_CHANGED;Broadcast intent action to indicate whether network service discovery is enabled or disabled
+android.media.ACTION_SCO_AUDIO_STATE_UPDATED;Sticky broadcast intent action indicating that the bluetoooth SCO audio connection state has been updated.
+android.provider.Telephony.SIM_FULL;The SIM storage for SMS messages is full.
+android.intent.action.GTALK_DISCONNECTED;Google Talk has been disconnected
+android.bluetooth.intent.action.REMOTE_DEVICE_DISCONNECTED;Broadcast when the scan mode changes
+android.provider.Telephony.SMS_DELIVER;A new text-based SMS message has been received by the device.
+android.speech.tts.TTS_QUEUE_PROCESSING_COMPLETED;The TextToSpeech synthesizer has completed processing of all the text in the speech queue.
+android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION;Intent to signal to the effect control application or service that an audio session is closed and that effects should not be applied anymore.
+android.intent.action.HEADSET_PLUG;A headset was plugged in or a previously plugged headset was removed
+android.intent.action.DOCK_EVENT;A sticky broadcast for changes in the physical docking state of the device.
+android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED;Intent used to broadcast the change in connection state of the local Bluetooth adapter to a profile of the remote device.
+android.intent.action.CONTENT_CHANGED;Indicates that the contents of specified URIs were changed.
+android.intent.action.PACKAGE_REPLACED; A new version of an application package has been installed, replacing an existing version that was previously installed.
+android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED;Intent used to broadcast the change in connection state of the A2DP profile.
+android.provider.Telephony.WAP_PUSH_DELIVER;A new text-based MMS message has been received by the device.
+android.bluetooth.intent.action.DISCOVERY_STARTED;The local Bluetooth adapter has started the remote device discovery process.
+android.bluetooth.intent.action.ENABLED;The bluetooth on this device has been enabled.
+android.intent.action.ACTION_POWER_CONNECTED;External power has been connected to the device.
+android.bluetooth.device.action.DISAPPEARED;Remote device disappeared. Sent when a remote device that was found in the last discovery is not found in the current discovery
+android.bluetooth.device.action.ALIAS_CHANGED;Indicates the alias of a remote device has been changed.
+android.bluetooth.device.action.NAME_FAILED;Indicates a failure to retrieve the name of a remote device.
+android.app.action.ACTION_PROFILE_PROVISIONING_COMPLETE;This broadcast is sent to indicate that provisioning of a managed profile or managed device has completed successfully.
+android.intent.action.APPLICATION_RESTRICTIONS_CHANGED;Sent after application restrictions are changed.
+android.os.action.POWER_SAVE_MODE_CHANGED; It is sent when the device power save mode state changes.
+android.net.scoring.SCORE_NETWORKS; no description found.
